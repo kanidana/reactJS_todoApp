@@ -1,0 +1,54 @@
+.myApp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo{
+  color: rgb(131, 152, 46);
+}
+
+button{
+  margin-right: 10px;
+  border-radius: 7px;
+  background-color: rgb(235, 244, 197);
+}
+
+button:hover{
+  border: none;
+  background-color: rgb(234, 237, 218);
+  transition: 1s;
+}
+
+input, textarea{
+  margin-bottom: 15px;
+  width: 250px;
+  border-radius: 4px;
+  height: 30px;
+}
+
+input:hover, textarea:hover{
+  border: 2px solid rgb(167, 181, 88);
+}
+
+.listask{
+  border-left: 4px solid rgb(131, 152, 46);
+  margin-top: 70px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  padding-top: 0px;
+  
+}
+
+.listask:hover{
+  background-color: rgb(234, 237, 218) ;
+}
+
+.isedit{
+  margin-top: 15px;
+}
